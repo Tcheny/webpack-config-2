@@ -15,7 +15,8 @@ webpack webpack-dev-server
 ## NPM Scripts
 
 ```
-"scripts" : {
+"scripts": {
+  "build": "webpack",
   "start": "webpack-dev-server --content-base dist/ --open --inline --hot"
 }
 ```
